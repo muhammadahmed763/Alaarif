@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/layout_top_rounded_shape"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/apoinments"
+        android:icon="@drawable/appoinments"
+        android:iconTint="@color/white"
+        android:title="Appointments"/>
+    <item
+        android:id="@+id/serviceInbox"
+        android:icon="@drawable/servicesinbox"
+        android:title="Appointments"/>
+    <item
+        android:id="@+id/manageCourses"
+        android:icon="@drawable/managecourses"
+        android:title="Manage Courses"/>
+    <item
+        android:id="@+id/workSchedule"
+        android:icon="@drawable/worksechdule"
+        android:title="Work Schedule"/>
+    <item
+        android:id="@+id/followUp"
+        android:icon="@drawable/followup"
+        android:title="Follow Up"/>
+    <item
+        android:id="@+id/prescription"
+        android:icon="@drawable/prescription"
+        android:title="Prescription"/>
+    <item
+        android:id="@+id/myservices"
+        android:icon="@drawable/myservices"
+        android:title="My Services"/>
+    <item
+        android:id="@+id/Gloccary"
+        android:icon="@drawable/groccery"
+        android:title="Groccary"/>
+    <item
+        android:id="@+id/bank"
+        android:icon="@drawable/grocery"
+        android:iconTint="@color/white"
+        android:title="Gloccary"/>
+    <item android:title="Sign Out">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/logout"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/appointmentBtn"
+        android:title="Booking"
+        android:icon="@drawable/calendersmoothwitle"/>
+    <item android:id="@+id/walletBtn"
+        android:title="Wallet"
+        android:icon="@drawable/vector"/>
+    <item android:id="@+id/homeBtn"
+        android:title="Home"
+        android:icon="@drawable/homecheck"/>
+    <item android:id="@+id/familyBtn"
+        android:title="Family"
+        android:icon="@drawable/peoplesmothwhite"/>
+    <item android:id="@+id/profileBtn"
+        android:title="Profile"
+        android:icon="@drawable/usersmoothwhite"/>
+</menu>
